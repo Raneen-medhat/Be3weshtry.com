@@ -1,0 +1,448 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Be3 w E4try</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/navbar.css" rel="stylesheet">    
+<link href="css/style_ar.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/hover.css" rel="stylesheet">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/navbar_ar.js"></script>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/popup-close.js"></script>  	
+<script src="js/mixitup.min.js"></script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+</head>
+<body>
+<div class="container">
+    <div class="top-header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3">
+                <div class="main-logo">
+                    <a href="index.html"><img src="images/main-logo.png"></a>
+                </div>
+            </div>
+          <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+                <div class="country-dropdown-menu">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-  haspopup="true" aria-expanded="false">
+                            <img src="images/country-flag.png">
+                            <p class="country-name">مصر /</p>
+                            <p class="state-name">  الاسكندرية <i class="fa fa-sort-desc" aria-hidden="true"></i></p>
+                        </a>
+                    <ul class="dropdown-menu">
+						<form method="post" name="form1">
+							<select class="countries"> 
+							  <option value="egypt">مصر</option> 
+							  <option value="Tounes">تونس</option> 
+							  <option value="Emaratt">الامارات</option> 
+							  <option value="egypt">مصر</option> 
+							  <option value="Tounes">تونس</option> 
+							  <option value="Emaratt">الامارات</option>
+							</select>
+							<select class="city">
+							  <option value="Cairo">القاهرة</option> 
+							  <option value="alexandria">الاسكندرية</option> 
+							  <option value="Tanta">طنطا</option>
+							  <option value="Cairo">القاهرة</option> 
+							  <option value="alexandria">الاسكندرية</option> 
+							  <option value="Tanta">طنطا</option>
+							</select>
+							<button class="submit">تم</button>
+						</form>
+                     </ul>
+					 </li>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-3 col-lg-2">
+                <div class="sign-in"> 
+                  <div id="signin-popup">
+                   <button data-js="open" class="sign-in" name="sign-in-btn" data-target="#">دخول</button>
+                      <div class="popup">
+                        <div class="signin">
+                            <button class="close"><i class="fa fa-close"></i></button>
+                               <h2>تسجيل دخول</h2>
+                              <form action="">
+                                    <input id="emailAddress" type="email" placeholder="البريد الالكترونى">
+                                    <input type="password" placeholder="كلمة المرور" name="psw" required>
+                                    <button class="submit" type="submit">دخول</button>
+                                        <div class="remmeber-me-option">
+                                    <input type="checkbox" checked="checked"> <p class="remmber-me">تذكرنى</p>
+                                    <span class="psw">نسيت <a href="#">كلمة المرور ؟</a></span>
+                                        </div>
+                                </form>
+                          </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+                <div class="new-user"> 
+                  <div id="rejesteration-popup">
+                   <button data-js="openrej" class="rejester" name="rejesteration-btn" data-target="#"><span><i class="fa fa-user-plus" aria-hidden="true"></i></span></button>
+                    <p>مستخدم جديد</p>
+                      <div class="popuprej">
+                        <div class="user-rejester">
+                            <button class="close"><i class="fa fa-close"></i></button>
+                            <h2>تسجيل </h2>
+                              <form action="">
+                                <input type="text" placeholder="اسم المستخدم" name="uname" required>
+                                <input id="emailAddress" type="email" placeholder="البريد الالكترونى">
+                                <input type="password" id="password" placeholder="كلمة المرور" name="psw" required>
+                                <input placeholder="تاكيد كلمة المرور" name="password_confirm" required type="password" id="password_confirm" oninput="check(this)" />  
+                                <input type="text" placeholder="رقم الهاتف" name="mob-no" >
+                                <button class="rejester" type="submit">تسجيل</button>  
+                            </form>
+                          </div>
+                        </div>
+                    </div>  
+                </div>   
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3 ">                   
+                <div class="puplish-ur-ads">	
+                <a href="publish_advertisement.html"><button class="your-ads" name="your-ads-btn" data-target="#">انشر اعلانك<span><i class="fa fa-plus-circle" aria-hidden="true"></i></span></button></a>
+                </div>    
+            </div>
+        </div><!---row------->
+    </div><!----top header div-------->
+    <!-----------start menu--------------------------->
+     <div class="menu">
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                 <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                  <ul class="nav navbar-nav navbar-right"> 
+                    <li class="active dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">عقارات للبيع</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>
+
+					   <li class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">عقارات للايجار</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>
+					  
+  		 <li class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">سيارات للبيع</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>
+					  
+					 <li class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">وظائف خاليه</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li> 
+
+					  <li class=" dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">هواتف و جولات</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>
+					 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">كمبيوتر</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>
+					 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">اعلانات مبوبة</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>
+					 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">المدونة</a>
+					  <ul class="dropdown-menu">
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  <li><a href="#">عقارات</a></li>
+					  </ul>
+					</li>                        
+                  </ul>
+                </div>
+            </div>
+        </nav>
+   </div> 
+    <!-------------------------------Start search section------------------------>
+    <section id="search-section">
+        <div class="row">
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <div class="search-about">
+                    <p>عن ماذا تبحث ؟ </p>
+                    <input type="text" name="search-about">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <div class="search-place">
+                    <p>المكان</p>                    
+                    <select >
+                 		<option value="cairo">القاهرة</option> 
+                      	<option value="alexandria">الاسكندرية</option> 
+                      	<option value="Tanta">طنطا</option>
+						<option value="cairo">القاهرة</option> 
+						<option value="alexandria">الاسكندرية</option> 
+                      	<option value="Tanta">طنطا</option>
+                    </select>    
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="minimum-price">
+                    <p>السعر</p>
+                    <input type="text" name="maximum-price" placeholder="الحد الادنى">
+                     <input type="text" name="maximum-price" placeholder="الحد الاقصى">
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <div class="category">
+                    <p>القسم</p>
+                     <div class="select-category">
+                          <select name="" value="ابحث">
+                            <option value="saab">كمبيوتر</option>
+                            <option value="opel">اجهزة منزليه</option>
+                            <option value="audi">وظائف</option>
+                            <option value="audi">وظائف</option>
+                            <option value="audi">وظائف</option>
+                        </select> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2 col-md-2">
+                <div class="start-search">
+                    <button class="go" name="start-search">ابحث</button>
+                </div>
+            </div>
+        </div>  
+    </section>
+	<div class="ads-space">
+    </div>
+	
+	
+	<!-----start our-portfolio--->
+<section id="product-page">
+	<div class="item-description">
+		<h1>سامسونج جلاكسى اس7 ايدج نسخة طبق الاصل للاورجنال بضمان سنه samsung </h1>
+	</div>
+	<div class="row">
+		<div class="col-md-8">
+			<div class="descripe">
+				<h3>الوصف</h3>
+				<p>samsung galaxy s7 edge first high copy اعلي اصدار ممكن تلاقيه حصريا عندفورسيزون 
+					للأستيراد ننفرد باحدث الموبايلات samsung galaxy s7 edge first high copy اعلي اصدار ممكن تلاقيه حصريا عندفورسيزون 
+					للأستيراد ننفرد باحدث الموبايلات</p>
+			</div>
+			<div class="item-slider">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/view1__copy_2.png" alt="view1" title="view1" id="wows1_0"/></li>
+		<li><img src="data1/images/view1__copy_2.png" alt="view1 - Copy (2)" title="view1 - Copy (2)" id="wows1_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/view1__copy_3.png" alt="jquery slider" title="view1 - Copy (3)" id="wows1_2"/></a></li>
+		<li><img src="data1/images/view1__copy_2.png" alt="view1 - Copy" title="view1 - Copy" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="view1"><span><img src="data1/tooltips/view1.png" alt="view1"/>1</span></a>
+		<a href="#" title="view1 - Copy (2)"><span><img src="data1/tooltips/view1__copy_2.png" alt="view1 - Copy (2)"/>2</span></a>
+		<a href="#" title="view1 - Copy (3)"><span><img src="data1/tooltips/view1__copy_3.png" alt="view1 - Copy (3)"/>3</span></a>
+		<a href="#" title="view1 - Copy"><span><img src="data1/tooltips/view1__copy.png" alt="view1 - Copy"/>4</span></a>
+	</div></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+			</div>
+			<div class="details">
+				<h3>التفاصيل</h3>
+				<div class="row">
+					<div class="col-md-12 col-sm-6 col-md-6">
+						<p><span>السعر:</span>3000 جنيه مصرى</p>
+						<p><span>نوع الخدمة:</span>معروض</p>
+						<p><span>السعر:</span>3000 جنيه مصرى</p>
+					</div>
+					<div class="col-md-12 col-sm-6 col-md-6">
+						<p><span>الدولة:</span>مصر</p>
+						<p><span>المدينة:</span>القاهرة</p>
+						
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-sm-6 col-md-6">
+						<div class="item-price">
+							<h4>15,000 <span>جنيه</span></h4>
+						</div>
+					</div>
+					<div class="col-md-12 col-sm-6 col-md-6">
+						<div class="display-phone-no">
+							<button onclick='document.getElementById("display-content").innerHTML = "03 5550005"'><p id="display-content"> <i class="fa fa-phone-square" aria-hidden="true"></i> اعرض رقم الهاتف</p> </button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="related-items">
+				<h2>اعلانات مشابهة</h2>
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div onclick="location.href='';" style="cursor:pointer;" class="item hvr-outline-in">
+							<div class="item-img-bg">
+								<a href=""><img src="images/item.png"></a>
+							</div>    
+							<h3>هواتف و جوالات</h3>
+							<p class="data">لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل    </p>
+							<h4>15,000 <span>جنيه</span></h4>
+							<p class="date">12/6/2017</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div  onclick="location.href='';" style="cursor:pointer;" class="item hvr-outline-in">
+							<div class="item-img-bg">
+								<a href=""><img src="images/item.png"></a>
+							</div>    
+							<h3>هواتف و جوالات</h3>
+							<p class="data">لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل    </p>
+							<h4>15,000 <span>جنيه</span></h4>
+							<p class="date">12/6/2017</p>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+						<div onclick="location.href='';" style="cursor:pointer;" class="item hvr-outline-in">
+							<div class="item-img-bg">
+								<a href=""><img src="images/item.png"></a>
+							</div>    
+							<h3>هواتف و جوالات</h3>
+							<p class="data">لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل لوريم ايبسوم هو نموذج افتراضي يوضع في 
+								التصاميم لتعرض على العميل    </p>
+							<h4>15,000 <span>جنيه</span></h4>
+							<p class="date">12/6/2017</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="vertical-adv-space">
+			</div>
+			<div class="vertical-adv-space">
+			</div>
+		</div>
+	</div>
+</section>
+</div> <!-------main container ---------->    
+    <!-------------start footer-------------------------------->
+    <section id="footer">
+        <div class="row">
+            <div class="col-xs-12 col-sm-5">
+                <div class="footer-logo">
+                    <a href="#"><img src="images/main-logo.png"></a>
+                    <a  class="site-url" href="#">be3weshtry.com</a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <div class="links">
+                    <h2>روابط</h2>
+                    <ul class="links-list">
+                        <a href=""><li>اضف اعلان مجانا</li></a>
+                        <a href=""><li>اعلانات فى السعودية</li></a>
+                        <a href=""><li>صفحات الاعضاء</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-2">
+                <div class="imp-catogries">
+                    <h2>اهم الاقسام</h2>
+                    <ul class="links-list">
+                        <a href=""><li>عقارات للبيع</li></a>
+                        <a href=""><li>سيارات للبيع</li></a>
+                        <a href=""><li>وظائف خاليه</li></a>
+                        <a href=""><li>شقق للبيع</li></a>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3">
+                <div class="shortcuts">
+                    <h2>اختصارات</h2>
+                    <ul class="links-list">
+                        <a href=""><li>اتصل بنا</li></a>
+                        <a href=""><li>تفعيل الحساب</li></a>
+                        <a href=""><li>شروط الاستخدام</li></a>
+                        <a href=""><li>سياسة الخصوصية</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&copy; 2017 Be3weshtry, All Rights Reserved. Be3weshtry.com Owned and Managed by <span><a href="">CodeInCode</a></span>.</p>
+    </div>  
+<!---------password confirmation script------------------->    
+<script language='javascript' type='text/javascript'>
+    function check(input) {
+        if (input.value != document.getElementById('password').value) {
+            input.setCustomValidity('Password Must be Matching.');
+        } else {
+            // input is valid -- reset the error message
+            input.setCustomValidity('');
+        }
+    }
+</script>    
+<!---------password confirmation script------------------->  
+<script>
+	var containerEl = document.querySelector('[data-ref~="mixitup-container"]');
+	var mixer = mixitup(containerEl, {
+		selectors: {
+			target: '[data-ref~="mixitup-target"]'
+		}
+	});
+	var mixer = mixitup(containerEl);
+	mixer.filter('.samsoung');
+</script>
+
+</body>
+</html>    

@@ -1,0 +1,78 @@
+/*=======================Start media quiries======================**/
+@media (max-width:767px){ 
+.top-header{margin-top:30px;}    
+.sign-in{text-align:center;float:none;} 
+.main-logo{text-align:center;}
+.puplish-ur-ads{float:none;margin-left:-15px;margin-right:-15px;margin-bottom:8px;}
+button.your-ads{width:100%;font-size:19px;text-align:center;}
+.puplish-ur-ads span{float:none;margin-left:0px;font-size:20px;padding-right:55px;}
+.navbar-nav > li a:after{content:"";margin:0px}
+ul.nav.navbar-nav.navbar-right{margin:0px;padding:0px;width:100%}
+#search-section{margin-top:15px;}
+.search-about input, .search-place input ,.select-category select{width:100%}
+.minimum-price{margin-top:15px;}  
+.category{margin-top:15px;}
+#search-section{padding:31px 25px 31px 25px;} 
+.start-search button{padding:10px;width:100%;font-size:15px;}
+.headline{text-align:center;width:100%;}
+.item p.data{text-align:center;padding:12px;}  
+.notifications{text-align:center;} 
+.item-details p.data{margin-right:0px;width:100%;}
+.links, .imp-catogries{border-left:none;}
+#footer{text-align:center; }
+.item-details .items-img-bg{top:3px;} 
+.minimum-price input, .maximum-price input{width:100%;} 
+.user-rejester{width:400px}  
+.country-dropdown-menu,.item-details p.data{text-align:center;}
+.login-page form input,.login-page form button,.welcome ul.dropdown-menu,.welcome,.search-about input, .search-place select {width:100%}
+.welcome{float:none}
+.adv-item-type p {margin-top: 10px;}
+#filtration-page .vertical-adv-space ,#filtration-page .headline {display: none;}
+.product-img-bg,.product-price,.item-price,.details h3{position:relative;margin:auto;top:0px;left:0;
+right:0;bottom:0;margin-top:0px!important;margin-bottom: 5px;}
+.product-description,.details{text-align: center;}
+.details h3{text-align:right}
+.country-dropdown-menu{margin-top:25px;}	
+}    
+ @media screen and (min-width:768px) and (max-width:768px){
+.navbar-nav > li > a{padding-right:0px;padding-left:0px;}
+ul.nav.navbar-nav.navbar-right{margin-right:-42px}     
+.search-about input, .search-place input{width:106px;}
+.minimum-price input, .maximum-price input{width:65px;padding-right:2px}
+.select-category select{width:101px;}
+.search-about input, .search-place select{width: 100%;}		 
+}
+@media (max-width:425px){ 
+.signin,.user-rejester{width:100%}
+}
+@media (min-width:769px) and (max-width:991px){
+.main-logo{text-align:center;}    
+.puplish-ur-ads{margin-right:-32px;}
+.notifications > a{margin-left:0px;} 
+.sign-in{float:none;margin-right:-20px;}
+.new-user{margin-right:-22px;} 
+.navbar-default .navbar-nav > li > a{font-size:15px;padding-right:2px;padding-left:4px;}
+ul.nav.navbar-nav.navbar-right{margin-right:-26px}    
+.search-about input, .search-place input{width:109px;} 
+.minimum-price input, .maximum-price input{width:82px }
+.select-category select{width:107px;}
+.item p.data,item-details p.data{margin-right:25px;}
+.minimum-price{width:176px;} 
+.search-about input, .search-place select{width: 100%;}
+.product-description{text-align:center;}
+.product-img-bg{position:relative;margin:auto;top:0px;left:0;right:0;bottom:0;margin-top:0px!important;
+ margin-bottom: 5px;}		
+}
+@media (min-width:991px) and (max-width:1200px){
+.notifications{text-align:left;}   
+.main-logo{text-align:center;margin-bottom:10px;}
+ul.nav.navbar-nav.navbar-right{margin-right:-21px}    
+.navbar-nav > li > a{padding-right:10px} 
+.search-about input, .search-place input{width:114px} 
+.select-category select{width:114px}
+.minimum-price input, .maximum-price input{width:84px;}
+.item img{width:84px;}    
+.item-details img{width:69px;}
+.search-about input, .search-place select{width:100%;}		
+}
+/*=======================End media quiries======================**/
