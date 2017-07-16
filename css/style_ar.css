@@ -78,6 +78,10 @@ select.countries, select.city{width:100%;margin: 4px;border-radius: 8px;backgrou
 .sign-in{text-align:center;margin-top:21px;float:left;}
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{color: #fff;background-color: #39b54a;}
 .navbar-default .navbar-nav ul.dropdown-menu{text-align: right;}
+.dropdown-content {display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;text-align: right;padding-right: 0px;}
+.dropdown-content a {color:#0e76bc;padding:9px 6px;text-decoration: none;display: block;}
+.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown:hover .dropdown-content {display: block;}
 /*=======================Start login and rejester popups======================*/
 .signin{z-index:10;text-align:center;border-top-left-radius:85px;border-bottom-right-radius:85px;padding:20px;background-color:#f8f8f8;display:inline-block;position:fixed;top:0;bottom:0;left:0;right:0;width:400px;height:390px;margin:auto;}
 .popup,.popuprej{position:fixed;display:none;z-index:5000;height:100%;width:100%;left:0;top:0;}
@@ -244,6 +248,18 @@ width: 100px;padding: 10px 24px 6px 1px;font-weight: bold;font-size: 16px;}
 /*=====================End item-page =================================*/
 .alert-danger{color: #fff;background-color: #0e76bc;border: none;border-bottom-left-radius:50px;border-top-right-radius:50px;}
 /*=====================End item-page =================================*/
+/*=====================Start blog-page =================================*/
+.blog-page{margin-top:25px;margin-bottom: 25px;}
+.blog-page ul.tabs li{display: inline-block;padding: 20px;}
+.blog-page .category-tabs {background: #f8f8f8;color: #808080;font-size: 16px;margin-top: 25px;border-radius: 15px;border: 1px solid #ddd;}
+.blog-page ul.tabs li{display:inline-block;padding:15px 25px 4px 20px;color:#fff;}
+.articles .item-details{width: 100%;}
+.blog-page .views{text-align:right;}
+.blog-page .item-details p.data{padding:0px 0px 5px 0px}
+.blog-page .item-details h2{font-size: 20px;color: #0e76bc;text-align: right;width: 100%;}
+.blog-page .views button{display:inline-block;float:left;border-bottom-right-radius: 25px;border-top-left-radius: 25px;border: none;background: #3bb54a;color: #fff;padding: 3px;width: 90px;}
+.articles{width:99%}
+/*=====================End blog-page=================================*/
 /*=====================Start Footer=================================*/
 .footer-logo{margin:30px;}
 .footer-logo img{width:200px;height:100%;}
